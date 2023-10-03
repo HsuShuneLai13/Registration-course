@@ -1,0 +1,33 @@
+/* styles.css */
+
+input[type=text],
+input[type=email],
+input[type=ph_number],
+input[type=address],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    background-color: rgb(0, 128, 128);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    display: block;
+    margin: 15px auto; /* Center the submit button horizontally */
+}
+
+input[type=submit]:hover {
+    background-color: #737373;
+}
+input[type=button]{
+	background-color: rgb(0, 128, 128);
+}
